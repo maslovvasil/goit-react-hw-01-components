@@ -1,9 +1,10 @@
 import user from "./Profile/user.json";
 import data from "./Statistics/data.json";
+import transactions from "./TransactionHistory/transactions.json";
 
 import Profile from "./Profile";
 import Statistics from "./Statistics";
-
+import TransactionHistory from "./TransactionHistory";
 
 export const App = () => {
   return (
@@ -25,6 +26,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
