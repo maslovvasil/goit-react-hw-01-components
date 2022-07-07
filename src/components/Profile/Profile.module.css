@@ -18,10 +18,11 @@ li {
 .profile {
 
   display: block;
-  width: 400px;
+  width: 512px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
+  text-align: center;
 }
 
 .avatar {
@@ -36,8 +37,13 @@ li {
 .name {
     font-weight: 700;
     font-size: 30px;
+    text-align: center;
 }
-
+.location{
+text-align: center;
+font-weight: 700;
+  font-size: 30px;
+}
 .stats {
     border-left: rgb(174, 122, 122);
     display: flex;
