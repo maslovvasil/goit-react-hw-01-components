@@ -1,0 +1,10 @@
+.friends {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.friends__thumb {
+    display: flex;
+    justify-content: center;
+}
