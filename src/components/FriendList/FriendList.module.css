@@ -1,10 +1,10 @@
-.friends {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-}
+.friendList {
+    display: block;
+    width: 400px;
+    margin: 10px;
+    padding-bottom: 4px;
 
-.friends__thumb {
-    display: flex;
-    justify-content: center;
+    background-color: rgb(251, 218, 172);
+    border-radius: 8px;
+    box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.2);
 }
