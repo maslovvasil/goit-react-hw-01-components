@@ -1,6 +1,7 @@
 import user from "./Profile/user.json";
 import data from "./Statistics/data.json";
 import transactions from "./TransactionHistory/transactions.json";
+import friends from "./FriendList/friends.json"
 
 import Profile from "./Profile";
 import Statistics from "./Statistics";
