@@ -1,4 +1,4 @@
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import style from './Statistics.module.css';
 // import BgcColor from '../helpers/BgcColor.js';
 
@@ -31,11 +31,12 @@ function backGroundColor() {
 }
 
 Statistics.propTypes = {
-  stats: propTypes.arrayOf(
-    propTypes.shape({
-      id: propTypes.string.isRequired,
-      label: propTypes.string.isRequired,
-      percentage: propTypes.number.isRequired,
+  title: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
     })
   ),
 };
